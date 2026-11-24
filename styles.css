@@ -68,8 +68,6 @@ h1{font-size:clamp(3.25rem,5.8vw,4.65rem);font-weight:600;letter-spacing:-.065em
 .gel-example img{width:100%;height:auto;border:1px solid var(--line)}
 .gel-example>a{display:block;cursor:zoom-in}
 .gel-example figcaption{font-size:.875rem;line-height:1.6;color:var(--muted);margin-top:12px}
-.image-source{font-size:.6875rem;line-height:1.5;color:var(--muted);margin-top:9px}
-.image-source a{text-underline-offset:2px}
 .amount-note{display:flex;gap:14px;margin-top:30px;padding:22px 0;border-top:1px solid var(--line);max-width:330px}
 .amount-note svg{width:32px;height:40px;color:var(--muted)}
 .amount-note p{font-size:1rem;color:var(--muted);line-height:1.6}
@@ -178,7 +176,7 @@ h1{font-size:clamp(3.25rem,5.8vw,4.65rem);font-weight:600;letter-spacing:-.065em
   .prescription-note{font-size:10pt;padding-top:5mm;gap:4mm}.prescription-note svg{width:6mm;height:6mm}
   .steps-section{display:block;padding:4mm 0 0}.steps-aside h2 br{display:none}.steps-aside>p:not(.eyebrow){font-size:10.5pt;max-width:none;margin-top:5mm}
   .gel-reference{display:grid;grid-template-columns:57mm 1fr;gap:8mm;align-items:center;margin-top:4mm;padding:3mm 0;border-block:.3pt solid var(--line);break-inside:avoid}
-  .gel-example figcaption{font-size:8pt;line-height:1.45;margin-top:2mm}.image-source{font-size:6.5pt;line-height:1.4;margin-top:2mm}
+  .gel-example figcaption{font-size:8pt;line-height:1.45;margin-top:2mm}
   .amount-note{max-width:none;margin-top:0;padding:0;gap:4mm;align-items:center;border:0}
   .amount-note svg{width:7mm;height:9mm}.amount-note p{font-size:10pt;line-height:1.4}.amount-note p br{display:none}
   .steps{margin-top:4mm}.steps>li{grid-template-columns:12mm 1fr;gap:5mm;padding:3.8mm 0}
