@@ -26,7 +26,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/simbolo-thome.svg">
   <link rel="preload" href="assets/Archivo-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="assets/Archivo-Light.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -57,14 +57,14 @@
             <p class="hero-description">Um passo a passo para acompanhar seu tratamento com tranquilidade e cuidar do seu sorriso em cada etapa.</p>
             <p class="hero-signature">Dra. Mariana Thomé</p>
           </div>
-          <aside class="protocol-card" aria-labelledby="protocolo-titulo">
-            <p class="protocol-label">Para consultar no dia a dia</p>
-            <h2 id="protocolo-titulo">Seu protocolo</h2>
-            <dl class="protocol-list">
-              <div><dt>Gel clareador</dt><dd>16% <span>peróxido de carbamida</span></dd></div>
-              <div><dt>Tempo de uso</dt><dd>2–3<span class="hour-unit">h</span> <span>por dia</span></dd></div>
-            </dl>
-            <p class="protocol-footnote">Siga a orientação recebida na consulta. Não aumente o tempo ou a quantidade de gel por conta própria.</p>
+          <aside class="orientation-card" aria-labelledby="orientacoes-titulo">
+            <p class="orientation-label">Neste guia</p>
+            <h2 id="orientacoes-titulo">Cuidado em cada etapa</h2>
+            <ul class="orientation-list">
+              <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4S7 15 7 21a9 9 0 0 0 18 0c0-6-9-17-9-17Z"/><path d="M12 21c0 3 2 4 4 4"/></svg><span>Como aplicar o gel</span></li>
+              <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 6v11a10 10 0 0 0 20 0V6h-5v11a5 5 0 0 1-10 0V6Z"/><path d="M6 11h5M21 11h5M7 20l5-2M20 18l5 2"/></svg><span>Como cuidar das moldeiras</span></li>
+              <li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M27 15a11 11 0 0 1-16 10L5 27l2-6A11 11 0 1 1 27 15Z"/><path d="M16 9v7M16 20h.01"/></svg><span>O que fazer se sentir sensibilidade</span></li>
+            </ul>
           </aside>
         </div>
         <nav class="guide-index wrap" aria-label="Navegação do guia"><span>Neste guia</span><a href="#como-usar">Passo a passo</a><a href="#cuidados">Cuidados</a><a href="#duvidas">Dúvidas comuns</a></nav>
@@ -98,9 +98,16 @@
           <p class="eyebrow">Sua rotina de cuidado</p>
           <h2 id="passos-titulo">Um pouco de gel.<br> <span>Muito cuidado.</span></h2>
           <p>Faça cada etapa com calma. A quantidade correta e o tempo orientado fazem parte do tratamento.</p>
-          <div class="amount-note">
-            <svg viewBox="0 0 48 56" aria-hidden="true"><path d="M24 5S8 25 8 35a16 16 0 0 0 32 0C40 25 24 5 24 5Z"/><path d="M17 35c0 5 3 8 7 8"/></svg>
-            <p><strong>Mais gel não acelera o resultado.</strong><br> O excesso pode extravasar e irritar a gengiva.</p>
+          <div class="gel-reference">
+            <figure class="gel-example">
+              <a href="assets/quantidade-gel-moldeira.png" target="_blank" rel="noopener" aria-label="Ampliar foto da aplicação da pequena gota de gel na moldeira"><img src="assets/quantidade-gel-moldeira.png" alt="Foto em detalhe: a ponteira da seringa deposita uma pequena gota de gel na parte interna da moldeira transparente." width="600" height="400"></a>
+              <figcaption>Uma pequena gota na região da moldeira correspondente à frente de cada dente indicado.</figcaption>
+              <p class="image-source">Fonte: <a href="https://fgmdentalgroup.com/blog/posts/clareamento-dental-pela-tecnica-caseira-praticidade-seguranca-e-eficacia-comprovadas/" target="_blank" rel="noopener">FGM Dental Group · Laryssa Barbosa et al.</a></p>
+            </figure>
+            <div class="amount-note">
+              <svg viewBox="0 0 48 56" aria-hidden="true"><path d="M24 5S8 25 8 35a16 16 0 0 0 32 0C40 25 24 5 24 5Z"/><path d="M17 35c0 5 3 8 7 8"/></svg>
+              <p><strong>Mais gel não acelera o resultado.</strong><br> O excesso pode extravasar e irritar a gengiva.</p>
+            </div>
           </div>
         </div>
         <ol class="steps">
