@@ -8,14 +8,25 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:title" content="Clareamento caseiro • Thomé Odontologia">
-  <meta property="og:description" content="O cuidado da consulta continua em casa. Um guia simples para acompanhar o seu tratamento.">
+  <meta property="og:description" content="Orientações, passo a passo e cuidados para o seu clareamento caseiro com a Thomé Odontologia.">
+  <meta property="og:site_name" content="Thomé Odontologia">
   <meta property="og:url" content="https://clareamento.thomeodontologia.com.br/">
+  <meta property="og:image" content="https://clareamento.thomeodontologia.com.br/assets/compartilhar-thome.png">
+  <meta property="og:image:secure_url" content="https://clareamento.thomeodontologia.com.br/assets/compartilhar-thome.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="600">
+  <meta property="og:image:alt" content="Símbolo oficial da Thomé Odontologia em dourado sobre fundo azul.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Clareamento caseiro • Thomé Odontologia">
+  <meta name="twitter:description" content="Orientações, passo a passo e cuidados para o seu clareamento caseiro.">
+  <meta name="twitter:image" content="https://clareamento.thomeodontologia.com.br/assets/compartilhar-thome.png">
   <link rel="canonical" href="https://clareamento.thomeodontologia.com.br/">
   <title>Clareamento caseiro | Guia de cuidado • Thomé Odontologia</title>
   <link rel="icon" type="image/svg+xml" href="assets/simbolo-thome.svg">
   <link rel="preload" href="assets/Archivo-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="assets/Archivo-Light.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -26,11 +37,7 @@
       <a href="https://thomeodontologia.com.br/" class="brand-link" aria-label="Thomé Odontologia, site da clínica">
         <img src="assets/logo-thome.svg" alt="Thomé Odontologia" width="1000" height="427.17" class="logo">
       </a>
-      <nav aria-label="Navegação do guia">
-        <a href="#como-usar">Como usar</a>
-        <a href="#cuidados">Cuidados</a>
-        <a href="#duvidas">Dúvidas</a>
-      </nav>
+      <p class="edition-label">Guia do paciente</p>
       <a class="button button-outline print-button" href="guia-clareamento-thome.pdf" download aria-label="Baixar guia de clareamento em PDF">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H4V9h16v8h-3M7 14h10v7H7zM17 11h.01"/></svg>
         <span>Baixar PDF</span>
@@ -42,20 +49,25 @@
     <div class="print-page page-intro">
       <section class="hero" aria-labelledby="titulo">
         <div class="hero-inner wrap">
-          <img src="assets/logo-thome-claro.svg" alt="Thomé Odontologia" width="1000" height="427.17" class="print-logo">
+          <img src="assets/logo-thome.svg" alt="Thomé Odontologia" width="1000" height="427.17" class="print-logo">
           <div class="hero-copy">
             <p class="eyebrow light-eyebrow">Guia pós-consulta</p>
-            <h1 id="titulo">Clareamento<br><span>caseiro.</span></h1>
-            <p class="hero-intro">O cuidado da consulta<br class="desktop-break"> continua em casa.</p>
+            <h1 id="titulo">Clareamento<br>caseiro.</h1>
+            <p class="hero-intro">Seu guia de cuidado,<br> da consulta à rotina de casa.</p>
             <p class="hero-description">Um passo a passo para acompanhar seu tratamento com tranquilidade e cuidar do seu sorriso em cada etapa.</p>
-            <a class="button button-gold hero-cta" href="#como-usar">Veja como usar</a>
-            <p class="hero-signature">Dra. Mariana Thomé <span>•</span> Thomé Odontologia</p>
+            <p class="hero-signature">Dra. Mariana Thomé</p>
           </div>
-          <div class="hero-art" aria-hidden="true">
-            <img src="assets/grafismo-dourado.svg" alt="" class="hero-graphic" width="1000" height="793.15">
-            <div class="art-caption"><span>Sorriso autêntico,</span><span>vida plena.</span></div>
-          </div>
+          <aside class="protocol-card" aria-labelledby="protocolo-titulo">
+            <p class="protocol-label">Para consultar no dia a dia</p>
+            <h2 id="protocolo-titulo">Seu protocolo</h2>
+            <dl class="protocol-list">
+              <div><dt>Gel clareador</dt><dd>16% <span>peróxido de carbamida</span></dd></div>
+              <div><dt>Tempo de uso</dt><dd>2–3<span class="hour-unit">h</span> <span>por dia</span></dd></div>
+            </dl>
+            <p class="protocol-footnote">Siga a orientação recebida na consulta. Não aumente o tempo ou a quantidade de gel por conta própria.</p>
+          </aside>
         </div>
+        <nav class="guide-index wrap" aria-label="Navegação do guia"><span>Neste guia</span><a href="#como-usar">Passo a passo</a><a href="#cuidados">Cuidados</a><a href="#duvidas">Dúvidas comuns</a></nav>
       </section>
 
       <section class="preparation wrap" aria-labelledby="preparo-titulo">
